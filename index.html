@@ -1,0 +1,310 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Blue1647 Class Example-Index 5</title>
+
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+<style>
+
+html  {
+  overflow: hidden; 
+  height: 100%; 
+  background: #bcbdc7;
+}
+body {
+  overflow: auto;
+  height: 100%;
+  width: 1100px;
+  margin: 0 auto; /* center */
+  padding:0;
+  border: 3px solid #474747;
+  border-width: 0 3px;
+  background: #fff;
+  font-family:Arial, Helvetica, sans-serif;
+}          
+/*reduced the size of the background image height*/
+#container-header {
+  float:left; 
+  background:url(images/mclaren.jpg);
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+  height:800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+#container-header h1{
+  width: auto;
+  height: 30px;
+  padding-top: 15px;
+  padding-bottom:20px;
+  text-align: center;
+  color: #ffff00;
+  background-color: black;
+
+}
+
+.row{
+  width:auto;
+  float: left;
+  height: auto;
+
+}
+.container {
+  width:505px;
+  margin: 10px 12px;
+  padding: 5px; 
+  float:left; 
+  background:#fff;
+  border: 3px solid #663333;
+  border-color: #red;
+}
+
+  h2, h3, h4, h5, h6{
+  width: auto;
+  height: 20px;
+  padding-bottom:10px;
+  text-align: center;
+  background-color: #660000;
+  color: #ffff00; 
+}
+
+/*adjsted width to cover entire screen, got background color from header image*/
+#address{
+  float:left;
+  width:1100px;
+  padding:0px;
+  background: url(images/supercar1.jpg);
+  background-repeat: no-repeat;
+  margin:0px;
+
+}
+/*button image in the list attibute only*/
+#address li{
+  float:left;
+  width:150px;
+  height: 120px;
+  display:block;
+  padding:0px 3px 0px 0px;
+  background:url(images/supercar2.jpg);
+  background-repeat: no-repeat;
+  text-decoration:none;
+  list-style:none;
+  text-align: center;
+      
+}
+/*removed background image and added padding top to move the text content. increased font to 16px made bolder with text align*/
+#address li a{
+  float:left;
+  width:150px;
+  padding-top: 33px;
+  height: 75px;
+  color:#ff0;
+  font-size:16px;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration:none;
+  list-style:none;
+}
+/*background hover image is here */
+#address li a:hover{
+  float:left;
+  width:150px;
+  height: 120px;
+  padding-top: 33px;
+  height: 120px;
+  color:#ff0;
+  font-size:16px;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration:none;
+  list-style:none;
+  background:url(images/supercar3.jpg);
+  background-repeat: no-repeat;
+ 
+}
+/*removed image from here and added border to the top because padding pushed the border behind the image*/
+#address li a.active{
+  float:left;
+  width: 150px;
+  padding-top: 33px;
+  margin: 0px;
+  height: 75px;
+  color:#ff0;
+  font-size:16px;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration:none;
+  list-style:none;
+  border-top: 3px solid yellow;
+}
+img{
+  float: left;
+  margin: 10px 25px;
+  border: #f00;
+  text-align: right;
+}
+footer{
+  width: 100%;
+  height: 120px;
+  clear: both;
+  padding:5px;
+  color: #663333;
+  
+}
+
+footer ul{
+  text-align: center;
+}
+/*effects the background image*/
+footer li{
+  float:left;
+  width:125px;
+  height:70px;
+  display:block;
+  padding:15px 0px 0 25px;
+  text-decoration:none;
+  list-style:none;
+}
+footer p{
+  text-align: center;
+  font-weight: bolder;
+}
+/*Added background image and added padding top to move the text content. increased font to 16px made bolder with text align* Had a smaller image to fit extra fries so used bg pos center*/
+footer li a{
+  float:left;
+  width:125px;
+  padding: 35px 0 0 10px;
+  height: 70px;
+  background: url(images/supercar4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  color:#663333;
+  font-size:18px;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration:none;
+  list-style:none;
+}
+/*background hover image is here */
+footer li a:hover{
+  float:left;
+  width:125px;
+  height: 70px;
+  padding-top: 35px;
+  color:#ff0;
+  font-size:18px;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration:none;
+  list-style:none;
+}
+
+</style>
+
+</head>
+
+
+
+
+
+<body>
+
+<ul id="address">
+                <li><a href="index.html">Index</a></li>
+                <li><a href="index1.html">Index 1</a></li>
+                <li><a href="index2.html">Index 2</a></li>
+                <li><a href="index3.html">Index 3</a></li>
+                <li><a href="index4.html">Index 4</a></li>
+                <li><a class="active" href="index4.html">Index 5</a></li>
+                <li><a href="#">Top</a></li>
+            </ul></div>
+
+<div id="container-header">
+<h1>SUPERCARS</h1>
+</div>
+<div class="row">
+<div class="container">
+<h2>Supercar1</h2>
+<img src="images/supercar6.jpg" alt="Poster 1">
+ 
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse efficitur molestie ante, sed convallis ante egestas vel. Cras suscipit lacinia metus, posuere volutpat est efficitur vel. Cras at lorem interdum, efficitur WEBPAGE  pulvinar venenatis diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; blandit varius. Vivamus volutpat justo ut velit scelerisque, et dictum turpis pretium. Fusce eget sem mauris. Pellentesque est ligula, porta id malesuada vel, ultricies suscipit ipsum. Nulla leo dui, sollicitudin eget pretium ac, eleifend quis dolor. Duis et felis sapien.</p>
+
+<p>Suspendisse dolor magna, scelerisque id sapien dapibus, laoreet pellentesque leo. Ut faucibus ac massa vel finibus. Sed malesuada cursus lacus, a volutpat eros commodo vel. Nulla pretium erat sed leo rhoncus, vitae commodo neque aliquet. Suspendisse commodo pretium semper. Sed in semper tortor, pulvinar venenatis diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus a elementum est. Aliquam luctus ut urna at feugiat. Donec turpis tortor, tincidunt at rutrum at, mattis at ante. Nunc varius lorem auctor erat finibus consectetur. Vestibulum sagittis neque quam, ut mattis odio vulputate sed. Nam ipsum augue, vulputate ut dolor vitae, bibendum semper sem. Maecenas vitae posuere dui. Phasellus tristique ipsum diam, ut ultricies diam euismod varius. Praesent aliquet felis ac felis tincidunt sodales.</p>
+
+</div>
+
+       
+
+<div class="row">
+<div class="container">
+<h2>Supercar2</h2>
+<img src="images/supercar2.jpg" alt="Poster 2">
+ 
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse efficitur molestie ante, sed convallis ante egestas vel. Cras suscipit lacinia metus, posuere volutpat est efficitur vel. Cras at lorem interdum, efficitur elit sit amet, blandit est. Curabitur eu massa et dolor venenatis consectetur in vitae lacus. Nunc rhoncus metus id vestibulum tincidunt. Cras et facilisis nibh. Nulla rutrum augue vel blandit varius. Vivamus volutpat justo ut velit scelerisque, et dictum turpis pretium. Fusce eget sem mauris. Pellentesque est ligula, porta id malesuada vel, ultricies suscipit ipsum. Nulla leo dui, sollicitudin eget pretium ac, eleifend quis dolor. Duis et felis sapien.</p>
+
+<p>Suspendisse dolor magna, scelerisque id sapien dapibus, laoreet pellentesque leo. Ut faucibus ac massa vel finibus. Sed malesuada cursus lacus, a volutpat eros commodo vel. Nulla pretium erat sed leo rhoncus, vitae commodo neque aliquet. Suspendisse commodo pretium semper. Sed in semper tortor, pulvinar venenatis diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus a elementum est. Aliquam luctus ut urna at feugiat. Donec turpis tortor, tincidunt at rutrum at, mattis at ante. Nunc varius lorem auctor erat finibus consectetur. Vestibulum sagittis neque quam, ut mattis odio vulputate sed. Nam ipsum augue, vulputate ut dolor vitae, bibendum semper sem. Maecenas vitae posuere dui. Phasellus tristique ipsum diam, ut ultricies diam euismod varius. Praesent aliquet felis ac felis tincidunt sodales.</p>
+
+</div>
+</div>
+
+<div class="row">
+<h2>Supercar Drag Race</h2>
+
+ <p><img src="images 2/103287518-McLaren-650S-Spider.530x298.jpg" width="450" height="360"alt="Poster 1"><iframe width="554" height="380"   src="https://www.youtube.com/embed/ZkSLgriyClo" frameborder="0" allowfullscreen></iframe>"
+ </p>
+ 
+ <p>Suspendisse dolor magna, scelerisque id sapien dapibus, laoreet pellentesque leo. Ut faucibus ac massa vel finibus. Sed malesuada cursus lacus, a volutpat eros commodo vel. Nulla pretium erat sed leo rhoncus, vitae commodo neque aliquet. Suspendisse commodo pretium semper. Sed in semper tortor, pulvinar venenatis diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus a elementum est. Aliquam luctus ut urna at feugiat. Donec turpis tortor, tincidunt at rutrum at, mattis at ante. Nunc varius lorem auctor erat finibus consectetur. Vestibulum sagittis neque quam, ut mattis odio vulputate sed. Nam ipsum augue, vulputate ut dolor vitae, bibendum semper sem. Maecenas vitae posuere dui. Phasellus tristique ipsum diam, ut ultricies diam euismod varius. Praesent aliquet felis ac felis tincidunt sodales.</p>
+
+ <p>Suspendisse dolor magna, scelerisque id sapien dapibus, laoreet pellentesque leo. Ut faucibus ac massa vel finibus. Sed malesuada cursus lacus, a volutpat eros commodo vel. Nulla pretium erat sed leo rhoncus, vitae commodo neque aliquet. Suspendisse commodo pretium semper. Sed in semper tortor, pulvinar venenatis diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus a elementum est. Aliquam luctus ut urna at feugiat. Donec turpis tortor, tincidunt at rutrum at, mattis at ante. Nunc varius lorem auctor erat finibus consectetur. Vestibulum sagittis neque quam, ut mattis odio vulputate sed. Nam ipsum augue, vulputate ut dolor vitae, bibendum semper sem. Maecenas vitae posuere dui. Phasellus tristique ipsum diam, ut ultricies diam euismod varius. Praesent aliquet felis ac felis tincidunt sodales.</p>
+<hr>
+</div>
+
+<div class="row">
+<h2>Supercar history</h2>
+
+ <p><img src="images/supercar4.jpg" alt="Poster 2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse efficitur molestie ante, sed convallis ante egestas vel. Cras suscipit lacinia metus, posuere volutpat est efficitur vel. Cras at lorem interdum, efficitur elit sit amet, blandit est. Curabitur eu massa et dolor venenatis consectetur in vitae lacus. Nunc rhoncus metus id vestibulum tincidunt. Cras et facilisis nibh. Nulla rutrum augue vel blandit varius. Vivamus volutpat justo ut velit scelerisque, et dictum turpis pretium. Fusce eget sem mauris. Pellentesque est ligula, porta id malesuada vel, ultricies suscipit ipsum. Nulla leo dui, sollicitudin eget pretium ac, eleifend quis dolor. Duis et felis sapien.</p>
+
+ <p>Suspendisse dolor magna, scelerisque id sapien dapibus, laoreet pellentesque leo. Ut faucibus ac massa vel finibus. Sed malesuada cursus lacus, a volutpat eros commodo vel. Nulla pretium erat sed leo rhoncus, vitae commodo neque aliquet. Suspendisse commodo pretium semper. Sed in semper tortor, pulvinar venenatis diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus a elementum est. Aliquam luctus ut urna at feugiat. Donec turpis tortor, tincidunt at rutrum at, mattis at ante. Nunc varius lorem auctor erat finibus consectetur. Vestibulum sagittis neque quam, ut mattis odio vulputate sed. Nam ipsum augue, vulputate ut dolor vitae, bibendum semper sem. Maecenas vitae posuere dui. Phasellus tristique ipsum diam, ut ultricies diam euismod varius. Praesent aliquet felis ac felis tincidunt sodales.</p>
+
+ <p>Suspendisse dolor magna, scelerisque id sapien dapibus, laoreet pellentesque leo. Ut faucibus ac massa vel finibus. Sed malesuada cursus lacus, a volutpat eros commodo vel. Nulla pretium erat sed leo rhoncus, vitae commodo neque aliquet. Suspendisse commodo pretium semper. Sed in semper tortor, pulvinar venenatis diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus a elementum est. Aliquam luctus ut urna at feugiat. Donec turpis tortor, tincidunt at rutrum at, mattis at ante. Nunc varius lorem auctor erat finibus consectetur. Vestibulum sagittis neque quam, ut mattis odio vulputate sed. Nam ipsum augue, vulputate ut dolor vitae, bibendum semper sem. Maecenas vitae posuere dui. Phasellus tristique ipsum diam, ut ultricies diam euismod varius. Praesent aliquet felis ac felis tincidunt sodales.</p>
+<hr>
+</div>
+
+<div class="row">
+<h2>Fastest 0 to 60</h2>
+
+ <p><img src="images/supercar6.jpg" alt="Poster 3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse efficitur molestie ante, sed convallis ante egestas vel. Cras suscipit lacinia metus, posuere volutpat est efficitur vel. Cras at lorem interdum, efficitur elit sit amet, blandit est. Curabitur eu massa et dolor venenatis consectetur in vitae lacus. Nunc rhoncus metus id vestibulum tincidunt. Cras et facilisis nibh. Nulla rutrum augue vel blandit varius. Vivamus volutpat justo ut velit scelerisque, et dictum turpis pretium. Fusce eget sem mauris. Pellentesque est ligula, porta id malesuada vel, ultricies suscipit ipsum. Nulla leo dui, sollicitudin eget pretium ac, eleifend quis dolor. Duis et felis sapien.</p>
+
+ <p>Suspendisse dolor magna, scelerisque id sapien dapibus, laoreet pellentesque leo. Ut faucibus ac massa vel finibus. Sed malesuada cursus lacus, a volutpat eros commodo vel. Nulla pretium erat sed leo rhoncus, vitae commodo neque aliquet. Suspendisse commodo pretium semper. Sed in semper tortor, pulvinar venenatis diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus a elementum est. Aliquam luctus ut urna at feugiat. Donec turpis tortor, tincidunt at rutrum at, mattis at ante. Nunc varius lorem auctor erat finibus consectetur. Vestibulum sagittis neque quam, ut mattis odio vulputate sed. Nam ipsum augue, vulputate ut dolor vitae, bibendum semper sem. Maecenas vitae posuere dui. Phasellus tristique ipsum diam, ut ultricies diam euismod varius. Praesent aliquet felis ac felis tincidunt sodales.</p>
+
+ <p>Suspendisse dolor magna, scelerisque id sapien dapibus, laoreet pellentesque leo. Ut faucibus ac massa vel finibus. Sed malesuada cursus lacus, a volutpat eros commodo vel. Nulla pretium erat sed leo rhoncus, vitae commodo neque aliquet. Suspendisse commodo pretium semper. Sed in semper tortor, pulvinar venenatis diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus a elementum est. Aliquam luctus ut urna at feugiat. Donec turpis tortor, tincidunt at rutrum at, mattis at ante. Nunc varius lorem auctor erat finibus consectetur. Vestibulum sagittis neque quam, ut mattis odio vulputate sed. Nam ipsum augue, vulputate ut dolor vitae, bibendum semper sem. Maecenas vitae posuere dui. Phasellus tristique ipsum diam, ut ultricies diam euismod varius. Praesent aliquet felis ac felis tincidunt sodales.</p>
+<hr>
+</div>
+<div class="row">
+<h2>The Finishing Race</h2>
+
+ <p><img src="images/supercar3.jpg" alt="Poster 3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse efficitur molestie ante, sed convallis ante egestas vel. Cras suscipit lacinia metus, posuere volutpat est efficitur vel. Cras at lorem interdum, efficitur elit sit amet, blandit est. Curabitur eu massa et dolor venenatis consectetur in vitae lacus. Nunc rhoncus metus id vestibulum tincidunt. Cras et facilisis nibh. Nulla rutrum augue vel blandit varius. Vivamus volutpat justo ut velit scelerisque, et dictum turpis pretium. Fusce eget sem mauris. Pellentesque est ligula, porta id malesuada vel, ultricies suscipit ipsum. Nulla leo dui, sollicitudin eget pretium ac, eleifend quis dolor. Duis et felis sapien.</p>
+
+ <p>Suspendisse dolor magna, scelerisque id sapien dapibus, laoreet pellentesque leo. Ut faucibus ac massa vel finibus. Sed malesuada cursus lacus, a volutpat eros commodo vel. Nulla pretium erat sed leo rhoncus, vitae commodo neque aliquet. Suspendisse commodo pretium semper. Sed in semper tortor, pulvinar venenatis diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus a elementum est. Aliquam luctus ut urna at feugiat. Donec turpis tortor, tincidunt at rutrum at, mattis at ante. Nunc varius lorem auctor erat finibus consectetur. Vestibulum sagittis neque quam, ut mattis odio vulputate sed. Nam ipsum augue, vulputate ut dolor vitae, bibendum semper sem. Maecenas vitae posuere dui. Phasellus tristique ipsum diam, ut ultricies diam euismod varius. Praesent aliquet felis ac felis tincidunt sodales.</p>
+
+ <p>Suspendisse dolor magna, scelerisque id sapien dapibus, laoreet pellentesque leo. Ut faucibus ac massa vel finibus. Sed malesuada cursus lacus, a volutpat eros commodo vel. Nulla pretium erat sed leo rhoncus, vitae commodo neque aliquet. Suspendisse commodo pretium semper. Sed in semper tortor, pulvinar venenatis diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus a elementum est. Aliquam luctus ut urna at feugiat. Donec turpis tortor, tincidunt at rutrum at, mattis at ante. Nunc varius lorem auctor erat finibus consectetur. Vestibulum sagittis neque quam, ut mattis odio vulputate sed. Nam ipsum augue, vulputate ut dolor vitae, bibendum semper sem. Maecenas vitae posuere dui. Phasellus tristique ipsum diam, ut ultricies diam euismod varius. Praesent aliquet felis ac felis tincidunt sodales.</p>
+</div>
+<footer>
+<p>Class Example of a Static Website &copy; Saumin Patel 2016</p>
+<ul>
+                <li><a href="index.html">Index</a></li>
+                <li><a href="index1.html">Index 1</a></li>
+                <li><a href="index2.html">Index 2</a></li>
+                <li><a href="index3.html">Index 3</a></li>
+                <li><a href="index4.html">Index 4</a></li>
+                <li><a href="index5.html">Index 5</a></li>
+                <li><a href="#">Top</a></li>
+            </ul>
+
+</footer>
+</body>
+</html>
